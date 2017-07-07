@@ -1,0 +1,50 @@
+body {
+			font-family: 'Nunito', sans-serif;
+			color: #616161;
+			padding: 40px 0;
+		}
+
+ul {
+  list-style: none;
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  border-bottom: 1px dotted;
+  padding: 15px 10px;
+}
+
+
+li:nth-child(even) {
+  background: #52bab3;
+  color: white; 
+}
+
+li:nth-child(3) {
+  background: pink;
+}
+
+li:nth-child(2n+7) {
+ color: blue;  
+}
+
+li:nth-child(-n+3) {
+ color: orange;  
+}
+
+li:nth-of-type(12) {
+  color: yellow; 
+}
+
+li:nth-last-of-type(1) {
+  color: tomato; 
+}
+
+ul:after {
+  margin-top: 20px;
+  float: left;
+  background-color: orange;
+  color: purple;
+  content: "I hope you enjoyed this list!"
+}
